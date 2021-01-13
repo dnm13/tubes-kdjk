@@ -6,7 +6,7 @@
             @else    
             <button
                 wire:click="chats({{ $user -> id }})"
-                class="bg-blue-500 hover:bg-blue-600 p-3 block w-full text-left"
+                class="bg-blue-500 hover:bg-blue-600 p-3 block w-full text-left text-white"
                 type="submit"
                 >
                 {{ $user -> name }}
